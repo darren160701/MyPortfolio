@@ -1,0 +1,52 @@
+#home {
+  padding-top: 7rem;
+}
+
+#profile {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#sertif img {
+  height: 70vh;
+}
+
+.ref_rem a {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  #nama {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #sertif img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 520px) {
+  #sertif img {
+    width: 100%;
+  }
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#project_detail {
+  padding-top: 7rem;
+}

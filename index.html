@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(59, 59, 59)">
+      <div class="container">
+        <a class="navbar-brand" href="#">Matthew</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificate</a>
+            </li>
+            <!-- ^^^^^^ Tambah menu navbar diatas ^^^^^^ -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="bg"></div>
+    <!-- Home -->
+    <section id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div id="nama" class="col-md-6 fw-bold fs-1 d-flex align-items-center" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            Hi, I'm <br />
+            Matthew Darren Halim
+          </div>
+          <div class="col-md-4 me-autor text-center" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <img src="img/profile.png" alt="matthew_foto" width="200" class="rounded-circle" />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#000000"
+          fill-opacity="1"
+          d="M0,160L80,160C160,160,320,160,480,176C640,192,800,224,960,218.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in">
+          <div class="col text-center fs-2 fw-bolder">About Me</div>
+        </div>
+        <div class="row justify-content-center mt-3" data-aos="zoom-in">
+          <div class="col text-center fs-5">
+            <p>
+              I am a fifth-semester (5th Semester) student in Computer Science at Bina Nusantara University. During my university year, I am also involved in several organizational activities. I have an interest in technology, business, and
+              design. I like to learn something new and have the ability for problem-solving. I always try to bring a positive impact from every activity I do.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(255, 255, 255)"
+          fill-opacity="1"
+          d="M0,288L80,261.3C160,235,320,181,480,181.3C640,181,800,235,960,261.3C1120,288,1280,288,1360,288L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container mb-5">
+        <div class="row text-center" data-aos="flip-up">
+          <div class="col fs-2 fw-bolder mb-3">Projects</div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/Frawlsalla-img.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Frawsalla Website</h5>
+                <a href="HTML/frawsalla.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/befreelance-img.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">BeFreelance Website</h5>
+                <a href="HTML/befreelance.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/progate.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Progate Website</h5>
+                <a href="HTML/progate.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/apple.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Apple Quality Assessment (Machine Learning)</h5>
+                <a href="HTML/applequalityassesment.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pwni.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">PWNI File Management (UI/UX Prototyping)</h5>
+                <a href="HTML/pwni.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/ekonomi-jabar.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">West Java economy (Data Visualization)</h5>
+                <a href="HTML/jabar-economy.html" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/rock-paper.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Rock Paper Scissor Classification</h5>
+                <a href="https://colab.research.google.com/drive/18A7V6KFmJZcSXe_DIUVOGm2AWhDEvk0l?usp=sharing" class="btn btn-dark">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" style="background-color: black; padding: 4rem 0rem">
+      <div class="container">
+        <div class="row text-center" data-aos="zoom-out">
+          <div class="col fs-2 fw-bolder mb-3" style="color: white">Experiences</div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="list-group">
+              <div class="list-group-item List" style="background-color: black; color: white">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">Staff of Design and Documentation</h5>
+                </div>
+                <p class="mb-1">National Mandarin Competition 2020 (MAR 2020 – DEC 2020)</p>
+                <div>
+                  <li>Produced 15++ Instagram Content (Twibon, Upcoming Event, etc), and Editing Video.</li>
+                </div>
+              </div>
+              <div class="list-group-item List" style="background-color: black; color: white">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">Coordinator of Design and Documentation</h5>
+                </div>
+                <p class="mb-1">Webinar “From Zero to Investment for Financial Freedom” (AUG 2020 – OCT 2020)</p>
+                <div>
+                  <li>Managed the team to design the Poster, Flyer, and Instagram Content.</li>
+                  <li>Documentation of the webinar.</li>
+                </div>
+              </div>
+              <div class="list-group-item List" style="background-color: black; color: white">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">Computer Science Mentor Even Semester 2020</h5>
+                </div>
+                <p class="mb-1">Binus Student Learning Community (MAR 2021 - AUG 2021)</p>
+                <div>
+                  <li>Teach two students to improve their academic performance in several subjects such as Database Design, Database Administration, Big Data Analytics, and Data Structure.</li>
+                </div>
+              </div>
+              <div class="list-group-item List" style="background-color: black; color: white">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">Sponsorship Committee</h5>
+                </div>
+                <p class="mb-1">Search for potential company by contacting various public relation officer of several companies (APR 2021 - present)</p>
+                <div>
+                  <li>Search for potential company by contacting various public relation officer of several companies.</li>
+                  <li>Create sponsorship package and construct the booklet contents.</li>
+                </div>
+              </div>
+              <div class="list-group-item List" style="background-color: black; color: white">
+                <div class="d-flex justify-content-between">
+                  <h5 class="mb-1">Computer Science Tutor Odd Semester 2021</h5>
+                </div>
+                <p class="mb-1">Binus Student Learning Community (OCT 2021 - present)</p>
+                <div>
+                  <li>Teach students to improve their academic performance in Program Design Methods subject.</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate -->
+    <section id="certificate">
+      <div class="container ps-10 mt-2 mb-5">
+        <div class="row text-center mb-3" data-aos="flip-up">
+          <div class="col fs-2 fw-bolder mb-3" style="color: black">Certificate</div>
+        </div>
+        <div class="row text-center" data-aos="flip-up">
+          <div class="col">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <center>
+                  <div id="sertif" class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/certif/1.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/2.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/a.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/b.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/3.jfif" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/4.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/5.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/6.png" class="d-block" alt="" />
+                  </div>
+                  <div id="sertif" class="carousel-item" data-bs-interval="2000">
+                    <img src="img/certif/dicoding.jpg" class="d-block" alt="" />
+                  </div>
+                </center>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="Footer" class="text-center text-white" style="background-color: rgb(29, 29, 29); padding: 20px 0px">
+      <center>
+        <div class="container justify-content-center">
+          <div class="row text-white">
+            <div class="col text-center">Cotnact Me</div>
+          </div>
+          <div class="row ref_rem" style="color: white">
+            <a href="http://linkedin.com/in/matthew-darren-halim-b197731b3"><i class="fab fa-linkedin"></i> Matthew Darren Halim</a>
+          </div>
+          <div class="rwo justify-content-center"><i class="fab fa-whatsapp"></i> +62 85107001067</div>
+          <div class="rwo justify-content-center"><i class="fas fa-envelope-open"></i> matthew.halim@binus.ac.id</div>
+        </div>
+      </center>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
+
+<!-- Data Aos untuk animasi -->
+<!-- https://michalsnik.github.io/aos/ -->
+<!-- https://github.com/michalsnik/aos -->
+
+<!-- Particle -->
